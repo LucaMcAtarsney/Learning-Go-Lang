@@ -4,16 +4,20 @@ import "fmt"
 
 func main() {
 
-	// this variable's type cannot be infered so it must be defined
-	var myAge int32 = 21
+	var a = "initial"
+	fmt.Println(a)
 
-	// this one can, so bool can be omitted
-	const isCool = true
+	var b, c int = 1,2
+	fmt.Println(b,c)
 
-	name, email := "Luca", "lucaisamazing@gmail.com"
+	var d = true
+	fmt.Println(d)
 
-	fmt.Println(name, myAge, email, isCool)
+	var e int
+	fmt.Println(e)
 
-	// this prints the variable type
-	fmt.Printf("%T\n", name)
+	f := "apple"
+	fmt.Println(f)
+
 }
+
